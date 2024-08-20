@@ -3,7 +3,7 @@
             <div class="d-flex justify-content-between pt-3 mt-15">
                 <v-carousel
                     cycle
-                    height="400"
+                    height="500"
                     width="100%"
                     interval="5000"
                 >

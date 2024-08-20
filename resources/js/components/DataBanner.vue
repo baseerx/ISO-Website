@@ -23,7 +23,7 @@
                         dark
                     >
                         <v-card-title class="text-h5">
-                            {{ this.totalAvailableCapacity }}
+                            {{ this.totalAvailableCapacity || 500 }}
                         </v-card-title>
 
                         <v-card-subtitle>Available Capacity (MW)</v-card-subtitle>
@@ -36,7 +36,7 @@
                         dark
                     >
                         <v-card-title class="text-h5">
-                            {{this.forecastDemand.totalLoad}}
+                            {{this.forecastDemand.totalLoad || 500}}
                         </v-card-title>
 
                         <v-card-subtitle>FORECASTED PEAK DEMAND (MW)</v-card-subtitle>
@@ -49,7 +49,7 @@
                         dark
                     >
                         <v-card-title class="text-h5">
-                            {{this.yesterdayforecastDemand.totalLoad}}
+                            {{ this.yesterdayforecastDemand.totalLoad || 100 }}
                         </v-card-title>
                         <v-card-subtitle>YESTERDAY'S PEAK DEMAND (MW)</v-card-subtitle>
                     </v-card>

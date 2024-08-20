@@ -24,7 +24,7 @@ export default {
     /* The image used */
     background-image: url("/img/banner/bbb1.png");
 
-    min-height: 120px;
+    min-height: 170px;
 
     /* Center and scale the image nicely */
     background-position: center;

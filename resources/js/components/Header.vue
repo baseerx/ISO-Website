@@ -1,10 +1,10 @@
 <template>
     <div>
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1568a5">
+        <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-center" style="background-color: #1568a5">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Header" aria-controls="Header" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="Header">
+            <div class="collapse navbar-collapse  d-flex justify-content-center" id="Header">
                 <v-btn
                     text
                     link

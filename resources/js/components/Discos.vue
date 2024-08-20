@@ -3,7 +3,7 @@
         <v-container class="pt-10 mt-15">
             <Section></Section>
             <v-main>
-                <div class="container mt-15">
+                <div class="container" style="margin-block:20%">
                     <div class="mt-15">
                         <v-row justify="space-around">
                             <v-col lg-12>
